@@ -1,5 +1,9 @@
-{
-  font-family: 'Raleway', sans-serif;
+a{ color: blue;
+  font-family:'Raleway', sans-serif;
+}
+font-family:'Raleway', sans-serif;
+b{
+
 }
 img {
   width: 100px;
@@ -13,12 +17,10 @@ g{
 
 }
 
- i{color:blue;
+i{color:blue;
   font-family: 'Raleway', sans-serif;
   
-  
-
- }
+}
 
 a{
   color: #0065FC #DEEBFF;
