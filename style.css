@@ -1,29 +1,49 @@
-body{height: 50vh;
-  width: 50vw;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 50px 1fr;
-  .navbar{ background: red; 
+ul{
+  font-family: 'Raleway', sans-serif;
 }
-  
+li{
+  grid-template-columns:1fr 1fr 1fr ;
+  grid-template-rows:1fr ;
+  grid-gap:10px;
+  justify-items:center ;
+  align-items:center ;
 }
-.navbar{
-  ul{
-    display: grid;
-    list-style-type:none ;
-    margin:0;
-    padding: 0;
- li }
+img {
+  width: 100px;
+  font-family: 'Raleway', sans-serif;
+}
+g{
+
+  border: 1px ridge rgb(241,243,244);
+  border-radius: 1px;
+  font-family: 'Raleway', sans-serif;
+
 }
 
-.navbar{
-  ul{
-    display: flex;
-    list-style-type:none ;
-    margin:0;
-    padding: 0;
-    grid-gap: 10px;
-    justify-items: center;
-    li{
-      margin:0 20px
+ i{color:blue;
+  font-family: 'Raleway', sans-serif;
+
+
+
+ }
+
+a{
+  color: #0065FC #DEEBFF;
+  border: 5px outset  #0065FC #DEEBFF;
+  border-radius: 5px;
+  font-family: 'Raleway', sans-serif;
+
+
+}
+
+section {
+  background-color:#DEEBFF #F2F2;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.photocard {
+  background-color:#DEEBFF #F2F2;
+  padding: 10px;
+  border-radius: 10px;
 }
