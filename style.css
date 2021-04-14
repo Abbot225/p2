@@ -1,51 +1,12 @@
-h1{
-  margin-left: 80px;
-  color: blue;
-  font-family:'Raleway', sans-serif;
-}
-h3{
-  
-  
-  
-  
-  color: blue;
-  font-family:'Raleway', sans-serif;
+body{
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50px 1fr;
+.navbar{
 }
 
-img {
-  width: 100px;
-  font-family: 'Raleway', sans-serif;
-}
-g{
-  
-  border: 1px ridge rgb(241,243,244);
-  border-radius: 1px;
-  font-family: 'Raleway', sans-serif;
+.navbar{
 
-}
-
-i{color:blue;
-  font-family: 'Raleway', sans-serif;
-  
-}
-
-a{
-  color: #0065FC #DEEBFF;
-  border: 5px outset  #0065FC #DEEBFF;
-  border-radius: 5px;
-  font-family: 'Raleway', sans-serif;
-  
-
-}
-
-section {
-  background-color:#DEEBFF #F2F2;
-  padding: 15px;
-  border-radius: 15px;
-}
-
-.photocard {
-  background-color:#DEEBFF #F2F2;
-  padding: 10px;
-  border-radius: 10px;
 }
