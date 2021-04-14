@@ -1,6 +1,13 @@
-link{
+h1{
   color: blue;
   font-family:'Raleway', sans-serif;
+}
+h3{
+  color: blue;
+  font-family:'Raleway', sans-serif;
+}
+link{
+  row-padding
 }
 img {
   width: 100px;
