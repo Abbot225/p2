@@ -28,15 +28,20 @@ g{
 
  i{color:blue;
   font-family: 'Raleway', sans-serif;
+}
 
-
-
- }
-
-
+.search-btn{ display:flex ;
+  
 
 
 }
+
+
+
+
+
+
+
 
 section {
   background-color:#DEEBFF #F2F2;
