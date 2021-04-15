@@ -1,13 +1,13 @@
 ul{
   font-family: 'Raleway', sans-serif;
   color: #0065FC;
-  grid-template-columns:1fr 1fr 1fr ;
-  grid-template-rows:1fr ;
-  grid-gap:10px;
-  justify-items:center ;
-  align-items:center ;
-}
-li{
+  display: inline;
+  text-align: right;
+  }
+li{ display: inline;
+  float: Right;
+  margin: 10px;
+
   
 }
 img {
