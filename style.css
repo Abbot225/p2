@@ -1,6 +1,5 @@
 ul{
-  font-family: 'Raleway', sans-serif;
-  color: #0065FC;
+  
   display: inline;
   text-align: right;
   }
@@ -9,15 +8,17 @@ li{ display: inline;
   margin: 10px;
 }
 
-a{ 
+a{  color:#0065FC;
+  font-family: 'Raleway', sans-serif;
 
 }
 
-b{
+b{font-family: 'Raleway', sans-serif;
+  color: #0065FC;
 
 }
-c{
-
+c{font-family: 'Raleway', sans-serif;
+  color: #0065FC;
 }
 img {
   width: 100px;
