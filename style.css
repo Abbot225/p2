@@ -7,8 +7,17 @@ ul{
 li{ display: inline;
   float: Right;
   margin: 10px;
+}
 
-  
+a{ 
+
+}
+
+b{
+
+}
+c{
+
 }
 img {
   width: 100px;
@@ -29,11 +38,7 @@ g{
 
  }
 
-a{
-  color: #0065FC #DEEBFF;
-  border: 5px outset  #0065FC #DEEBFF;
-  border-radius: 5px;
-  font-family: 'Raleway', sans-serif;
+
 
 
 }
