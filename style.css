@@ -1,5 +1,9 @@
 .photocard{
+  margin:5px;
+  border:1px solid;
   background: lightgray;
+  float: left;
+  width:390px;
   object-fit: contain;
   
 
@@ -7,6 +11,12 @@
 .desc{
   padding:1px;
   text-align:left;
+}
+.start{
+
+}
+.price{
+
 }
 #{
   
