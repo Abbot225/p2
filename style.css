@@ -1,7 +1,9 @@
 *{
+  box-sizing: border-box;
   margin-left: 100px;
 
 }
+
 ul{
   margin-left: 100px;
   padding: 100px;
@@ -29,7 +31,6 @@ li{
   }
   .first{
     margin:5px;
-    padding: 100px;
     border:1px solid lightgray ;
     float: left;
     width: 390px;
