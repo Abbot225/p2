@@ -1,3 +1,13 @@
+.photocard{
+  background: lightgray;
+  object-fit: contain;
+  
+
+}
+.desc{
+  padding:1px;
+  text-align:left;
+}
 #{
   
   display: inline;
