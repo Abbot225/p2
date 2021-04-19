@@ -22,7 +22,9 @@ li{
     padding:20px;
     font-family:arial;
   }
+.search-box{
+  position: fixed;
+  margin: right;
+}
   
-  fa-map-marker-alt {
-   width: 200;
-  }
+  
