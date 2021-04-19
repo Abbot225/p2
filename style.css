@@ -36,16 +36,16 @@ i{
  
 
  .fa-money-bill-wave{
-   position: relative;
-   bottom: 9px;
-  right: 20px;
+   position: fixed;
+   top: 643px;
+  left: 280px;
   border:45px;
   
 
  }
  .diff-box{
    position: relative;
-   bottom: 40px;
+   bottom: 43px;
    
 
  }
