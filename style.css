@@ -37,8 +37,8 @@ i{
 
  .fa-money-bill-wave{
    position: fixed;
-   top: 643px;
-  left: 280px;
+   top: 642px;
+  left: 275px;
   border:45px;
   
 
@@ -50,3 +50,19 @@ i{
 
  }
   
+ .another-box{
+  position: relative;
+  bottom: 21px;
+ }
+ 
+ .here-we-go-box{
+  position: relative;
+  bottom: 21px;
+  left: 226px;
+ }
+ .fa-heart{
+  position: fixed;
+  top: 642px;
+ left: 700px;
+ border:45px;
+ }
