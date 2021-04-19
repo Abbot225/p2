@@ -23,8 +23,10 @@ li{
     font-family:arial;
   }
 .search-box{
-  position: fixed;
-  margin: right;
+  position: relative;
+  right: 225px;
+  
 }
-  
-  
+i{
+  position: relative;
+}
