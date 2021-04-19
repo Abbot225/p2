@@ -29,4 +29,6 @@ li{
 }
 i{
   position: relative;
-}
+  left: 90px;
+  text-shadow: lightgrey;
+  }
