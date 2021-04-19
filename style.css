@@ -22,24 +22,4 @@ li{
     padding:20px;
     font-family:arial;
   }
-  .container{
-    max-width:1200px;
-    margin: auto;
-    background: lightgray;
-    overflow: auto;
-   
-  }
-  .first{
-    margin:5px;
-    border:1px solid lightgray ;
-    float: left;
-    width: 390px;
-  }
-  .first img{
-    width:100%;
-    height:auto;
-  }
-  .desc{
-    paddibg:15px;
-    text-align:center;
-  }
+  
