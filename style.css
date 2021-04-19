@@ -69,11 +69,22 @@ i{
  .final-box
  {
   position: fixed;
-  top: 642px;
-  left: 856px;
+  top: 638px;
+  left: 849px;
 
  }
  .fa-dog{
   position: fixed;
-
+  top: 638px;
+  left: 920px;
+ }
+ .fa-info{
+  position: fixed;
+  bottom: 225px;
+  left: 200px;
+ }
+ .acc{
+  position: fixed;
+  bottom: 300px;
+  left: 200px;
  }
