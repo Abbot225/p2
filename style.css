@@ -1,9 +1,7 @@
 *{
   box-sizing: border-box;
   margin-left: 100px;
-
 }
-
 ul{
   margin-left: 100px;
   padding: 100px;
@@ -34,16 +32,17 @@ i{
   outline:rgb(17, 121, 226)
   }
  
-
- 
+ .fa-money-bill-wave{
+   position: fixed;
+   top: 642px;
+  left: 275px;
+  border:45px;
   
-
  }
  .diff-box{
    position: relative;
    bottom: 43px;
    
-
  }
   
  .another-box{
@@ -65,12 +64,15 @@ i{
  .final-box
  {
   position: fixed;
+  top: 642px;
+  left: 856px;
   top: 638px;
   left: 849px;
 
  }
  .fa-dog{
   position: fixed;
+
   top: 638px;
   left: 920px;
  }
@@ -81,23 +83,5 @@ i{
  }
  .acc{
   position: fixed;
-  top: 700px;
+  bottom: 300px;
   left: 200px;
- }
- .float-box{
-   position: relative;
-   width:1200px;
-   height: 600px;
-   margin:80px auto 0;
-   background:#262626;
- }
- .float-box .box1{
-  position: relative;
-  width: calc(400px-30px);
-   height: (300px- 30px);
-   background:#000;
-   float: left;
-   margin: 15px;
-   box-sizing: border-box;
-   overflow: hidden;
- }
