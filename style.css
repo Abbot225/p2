@@ -29,6 +29,9 @@ li{
 }
 i{
   position: relative;
-  left: 90px;
-  text-shadow: lightgrey;
+  left: 95px;
+  border:45px;
+  outline:rgb(17, 121, 226)
   }
+ 
+  
