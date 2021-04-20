@@ -1,6 +1,13 @@
 *{
   box-sizing: border-box;
   margin-left: 100px;
+  
+}
+h1{
+  color:black
+}
+p{
+
 }
 ul{
   margin-left: 100px;
@@ -37,14 +44,19 @@ i{
    top: 642px;
   left: 275px;
   border:45px;
+  color: blue;
   
  }
  .diff-box{
    position: relative;
    bottom: 43px;
    
+   
  }
-  
+ . fa-child{
+   color: blue;
+ }
+
  .another-box{
   position: relative;
   bottom: 21px;
@@ -60,6 +72,7 @@ i{
   top: 642px;
  left: 700px;
  border:45px;
+ color:blue;
  }
  .final-box
  {
@@ -72,14 +85,16 @@ i{
  }
  .fa-dog{
   position: fixed;
-
+color: blue;
   top: 638px;
   left: 920px;
+  box-decoration-break: inherit;
  }
  .fa-info{
   position: fixed;
   bottom: 225px;
   left: 200px;
+  color: blue;
  }
  .acc{
   position: fixed;
