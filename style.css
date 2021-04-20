@@ -135,3 +135,9 @@ left: 697px;
 bottom: 290px;
 left: 487px;
  }
+ .square{
+  width:30px;
+  height:30px;
+  border-radius:5px;
+  background-color:rgba(14, 150, 240, 0.562); 
+ }
