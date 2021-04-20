@@ -139,5 +139,9 @@ left: 487px;
   width:30px;
   height:30px;
   border-radius:5px;
-  background-color:rgba(14, 150, 240, 0.562); 
+  background-color:rgba(186, 211, 228, 0.87); 
+  position: fixed;
+  left: 162px;
+  top: 587px;
+
  }
