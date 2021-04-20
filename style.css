@@ -1,25 +1,22 @@
 *{
   box-sizing: border-box;
-  margin-left: 100px;
-  
+}
+
+header img{
+  width: 100px;
 }
 h1{
-  color:black
+  color:rgb(223, 16, 16);
 }
-p{
-
+nav ul{
+  float:right;
 }
-ul{
-  margin-left: 100px;
-  padding: 100px;
+ul li{
   list-style:none;
+  display: inline;
 }
-li{
-  float:left;
-  }
+
   nav a{
-    width:100px;
-    display: block;
     text-decoration:none;
     text-align:center;
     font-size:17px;
@@ -28,19 +25,19 @@ li{
     font-family:arial;
   }
 .search-box{
-  position: relative;
+  
   right: 225px;
   
 }
 i{
-  position: relative;
+  
   left: 95px;
   border:45px;
-  outline:rgb(17, 121, 226)
+  outline:rgb(17, 121, 226);
   }
  
  .fa-money-bill-wave{
-   position: fixed;
+  
    top: 642px;
   left: 275px;
   border:45px;
@@ -48,27 +45,27 @@ i{
   
  }
  .diff-box{
-   position: relative;
+   
    bottom: 43px;
    
    
  }
- . fa-child{
+ .fa-child{
    color: blue;
  }
 
  .another-box{
-  position: relative;
+  
   bottom: 21px;
  }
  
  .here-we-go-box{
-  position: relative;
+
   bottom: 21px;
   left: 226px;
  }
  .fa-heart{
-  position: fixed;
+  
   top: 642px;
  left: 700px;
  border:45px;
@@ -76,7 +73,7 @@ i{
  }
  .final-box
  {
-  position: fixed;
+  
   top: 642px;
   left: 856px;
   top: 638px;
@@ -84,7 +81,6 @@ i{
 
  }
  .fa-dog{
-  position: fixed;
 color: blue;
   top: 638px;
   left: 920px;
