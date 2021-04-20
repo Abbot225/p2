@@ -88,7 +88,8 @@ i{
 color: blue;
   top: 638px;
   left: 920px;
-  box-decoration-break: inherit;
+  border-radius: 50px;
+  
  }
  .fa-info{
   position: fixed;
@@ -100,3 +101,4 @@ color: blue;
   position: fixed;
   bottom: 300px;
   left: 200px;
+  
