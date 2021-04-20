@@ -88,7 +88,7 @@ i{
 color: blue;
   top: 638px;
   left: 920px;
-  border-radius: 50px;
+ 
   
  }
  .fa-info{
@@ -97,8 +97,41 @@ color: blue;
   left: 200px;
   color: blue;
  }
- .acc{
-  position: fixed;
-  bottom: 300px;
-  left: 200px;
+ .cir{
   
+    background-color:rgba(14, 150, 240, 0.562);
+    width:30px;
+    height:30px;
+    border-radius:50px;
+    position: fixed;
+  bottom: 290px;
+  left: 270px;
+  
+  }
+  .cir2{
+    background-color:rgba(14, 150, 240, 0.562);
+    width:30px;
+    height:30px;
+    border-radius:50px;
+    position: fixed;
+  bottom: 290px;
+  left: 270px;
+  }
+ .cir3{
+  background-color:rgba(14, 150, 240, 0.562);
+  width:30px;
+  height:30px;
+  border-radius:50px;
+  position: fixed;
+bottom: 290px;
+left: 270px;
+ }
+ .cir4{
+  background-color:rgba(14, 150, 240, 0.562);
+  width:30px;
+  height:30px;
+  border-radius:50px;
+  position: fixed;
+bottom: 290px;
+left: 200px;
+ }
