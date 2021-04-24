@@ -123,7 +123,7 @@ bottom: 290px;
 left: 697px;
  }
  .cir4{
-  background-color:rgba(14, 150, 240, 0.562);
+  background-color:rgba(252, 15, 7, 0.562);
   width:30px;
   height:30px;
   border-radius:50px;
@@ -132,9 +132,10 @@ bottom: 290px;
 left: 487px;
  }
  .square{
-  position: fixed;
-background-color: rgba(130, 158, 79, 0.507);
-  width:50px;
-  height:50px;
+   background-color: black;
+   position: fixed;
+   width:30px;
+   height:30px;
 
  }
+  
