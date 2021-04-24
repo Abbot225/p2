@@ -132,12 +132,9 @@ bottom: 290px;
 left: 487px;
  }
  .square{
-  width:30px;
-  height:30px;
-  border-radius:5px;
-  background-color:rgba(186, 211, 228, 0.87); 
   position: fixed;
-  left: 162px;
-  top: 587px;
+background-color: rgba(130, 158, 79, 0.507);
+  width:50px;
+  height:50px;
 
  }
