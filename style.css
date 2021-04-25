@@ -26,7 +26,7 @@ ul li{
   }
 .search-box{
   
-  right: 700px;
+  right: 225px;
   
 }
 i{
@@ -145,6 +145,8 @@ left: 487px;
   width:25px;
   height:25px;
   background-color: rgba(43, 125, 248, 0.836);
+  left: 200px;
 
  }
   
+ 
