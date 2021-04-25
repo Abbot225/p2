@@ -94,7 +94,13 @@ color: blue;
   color: blue;
  }
  .cir{
-  
+  position: relative;
+  bottom: 20px;
+  left: 30px;
+  --size:60px; 
+  border: 2px solid  rgb(82, 48, 231);
+   
+   border-radius: 50px;
    
   }
   .cir2{
