@@ -136,13 +136,13 @@ left: 487px;
    position: fixed;
    width:25px;
    height:25px;
-   left: 1px;
+   left: 25%;
   
 
  }
  .square2{
   position: fixed;
-  width:25px;
+  width:50px;
   height:25px;
   background-color: rgba(43, 125, 248, 0.836);
   left: 200px;
