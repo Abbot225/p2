@@ -133,14 +133,20 @@ left: 487px;
  }
  
  .search-bar_input{
-   border: 2px solid  rgb(82, 48, 231);
+  --size:60px; 
+  border: 2px solid  rgb(82, 48, 231);
    
+   border-radius: 500px;
    
  }
  
-  i{
-    
-  }
+ .search-bar_submit{
+flex-grow:1;
+font-size: 1.5rem;
+padding: 0 0.5em;
+border:0;
+ }
 
+ }\
  
  
