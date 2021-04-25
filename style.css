@@ -132,8 +132,15 @@ bottom: 290px;
 left: 487px;
  }
  
-
-  
-
+ .search-bar_input{
+   border: 2px solid  rgb(82, 48, 231);
+   
+   
  }
+ 
+  i{
+    
+  }
+
+ 
  
