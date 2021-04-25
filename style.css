@@ -95,41 +95,16 @@ color: blue;
  }
  .cir{
   
-    background-color:rgba(14, 150, 240, 0.562);
-    width:30px;
-    height:30px;
-    border-radius:50px;
-    position: fixed;
-  bottom: 290px;
-  left: 270px;
-  
+   
   }
   .cir2{
-    background-color:rgba(14, 150, 240, 0.562);
-    width:30px;
-    height:30px;
-    border-radius:50px;
-    position: fixed;
-  bottom: 290px;
-  left: 915px;
+    
   }
  .cir3{
-  background-color:rgba(14, 150, 240, 0.562);
-  width:30px;
-  height:30px;
-  border-radius:50px;
-  position: fixed;
-bottom: 290px;
-left: 697px;
+ 
  }
  .cir4{
-  background-color:rgba(252, 15, 7, 0.562);
-  width:30px;
-  height:30px;
-  border-radius:50px;
-  position: fixed;
-bottom: 290px;
-left: 487px;
+  
  }
  
  .search-bar_input{
@@ -144,9 +119,9 @@ left: 487px;
 flex-grow:1;
 font-size: 1.5rem;
 padding: 0 0.5em;
-border:0;{
+border:0;}
 
-.fa-money-bill-wave{
+  .fa-money-bill-wave{
 --size:60px; 
   border: 2px solid  rgb(82, 48, 231);
    
