@@ -42,6 +42,9 @@ i{
   left: 275px;
   border:45px;
   color: blue;
+  width: 35px;
+  
+   
   
  }
  .diff-box{
@@ -100,11 +103,13 @@ color: blue;
   left: 30px;
   border: 4px solid  rgb(82, 48, 231);
    border-radius: 50px;
+   width: 100px;
    
    
   }
   .cir2{
-    
+    position: relative;
+   
   }
  .cir3{
  
@@ -122,10 +127,10 @@ color: blue;
  }
  
  .search-bar_submit{
-flex-grow:1;
-font-size: 1.5rem;
-padding: 0 0.5em;
-border:0;}
+  flex-grow:1;
+  font-size: 1.5rem;
+  padding: 0 0.5em;
+  border:0;}
 
   .fa-money-bill-wave{
 --size:60px; 
