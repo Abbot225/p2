@@ -118,10 +118,8 @@ color: blue;
   
  }
  
- .search-bar_input{
-  --size:60px; 
+ .search-bar_input{ 
   border: 2px solid  rgb(82, 48, 231);
-   
    border-radius: 500px;
    
  }
