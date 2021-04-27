@@ -97,10 +97,10 @@ color: blue;
   color: blue;
  }
  .cir{
-  --size:60px; 
-  position: relative;
-  bottom: 22px;
-  left: 30px;
+   font-size: 18px;
+    position: relative;
+  bottom: 27px;
+  left: 119px;
   border: 4px solid  rgb(82, 48, 231);
    border-radius: 50px;
    width: 100px;
