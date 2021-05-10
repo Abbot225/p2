@@ -36,7 +36,7 @@ ul li{
   }
   
   .search-box{
-    border: 2px solid rgb(0, 119, 255);
+    border: 2px solid rgb(210, 214, 219);
     border-radius: 500px;
     display:inline-block;
     overflow: hidden;
@@ -52,7 +52,9 @@ ul li{
     height:40px;
     }
  
-   
+   h2{
+     display: inline-block;
+   }
   
  
  .diff-box{
@@ -118,11 +120,12 @@ color: blue;
   border:none;
     }
  .search-box button{
-  background-color:  cornflowerblue;
+  background-color:  rgb(68, 116, 206);
   border-radius:0 50px 50px 0;
   border:none;
   padding: 10px;
   height:40px;
+  color: white;
  }
  
 
