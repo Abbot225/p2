@@ -61,30 +61,18 @@ ul li{
    h2{
      display: inline-block;
    }
-  
- .fa-child{
-   color: blue;
+  p2{
+   padding: 3%;
+    
+  }
    
- }
-
+  .in{
+    border: 100px solid  #eeeee4;
+    background-color:#eeeee4;
+    
+  }
  
- .fa-heart{
-  
-  top: 642px;
- left: 700px;
- border:45px;
- color:blue;
- }
- 
- .fa-dog{
-color: blue;
-  top: 638px;
-  left: 920px;
- }
-
-
-
-.filter{
+   .filter{
  font-size: 18px;
   border: 3px solid  rgb(210, 214, 219);
   border-radius: 55px;
@@ -129,6 +117,7 @@ color: blue;
   justify-content: center;
   align-items: center;
   color: blue;
+  
 }
  
 .in{
