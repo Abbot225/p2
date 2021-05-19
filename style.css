@@ -122,6 +122,8 @@ ul li{
 }
  
 .in{
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
   color:rgb(19, 13, 13);
   font-size: 30px;
   font-weight: bold;
@@ -143,5 +145,10 @@ ul li{
    
  
   
+}
+.photocard2 img{
+  width: 250px;
+  display: inline-flexbox;
+  border: none;
 }
 
