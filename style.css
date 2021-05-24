@@ -122,8 +122,7 @@ ul li{
 }
  
 .in{
-  display: grid;
-  grid-template-columns: repeat(6,1fr);
+ 
   color:rgb(19, 13, 13);
   font-size: 30px;
   font-weight: bold;
@@ -131,7 +130,16 @@ ul li{
   
   }
 .photocard img{
-  width: 350px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  grid-template-columns: repeat(6,1fr);
+  width: 250px;
+  height: 146px;
+  display: inline-flexbox;
+  border: none;
+  grid-template-columns: repeat(6,1fr);
+  width: 250px;
+  height: 150px;
   display: inline-block;
   border: none;
   
@@ -147,8 +155,50 @@ ul li{
   
 }
 .photocard2 img{
+  flex-wrap: wrap;
+  flex-direction: row;
+  grid-template-columns: repeat(6,1fr);
   width: 250px;
+  height: 146px;
+  display: inline-flexbox;
+  border: none;
+}
+.photocard3 img{
+  flex-wrap: wrap;
+  flex-direction: row;
+  grid-template-columns: repeat(6,1fr);
+  width: 250px;
+  height: 146px;
   display: inline-flexbox;
   border: none;
 }
 
+.photocard4 img{
+  flex-wrap: wrap;
+  flex-direction: row;
+  grid-template-columns: repeat(6,1fr);
+  width: 250px;
+  height: 146px;
+  display: inline-flexbox;
+  border: none;
+}
+
+.photocard5 img{
+  flex-wrap: wrap;
+  flex-direction: row;
+  grid-template-columns: repeat(6,1fr);
+  width: 250px;
+  height: 146px;
+  display: inline-flexbox;
+  border: none;
+}
+
+.photocard6 img{
+  flex-wrap: wrap;
+  flex-direction: row;
+  grid-template-columns: repeat(6,1fr);
+  width: 250px;
+  height: 146px;
+  display: inline-flexbox;
+  border: none;
+}
