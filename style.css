@@ -62,6 +62,7 @@ ul li{
    h2{
      display: inline-block;
    }
+  
   p2{
    padding: 3%;
     
@@ -120,85 +121,56 @@ ul li{
   color: blue;
   
 }
- 
+
 .in{
  
   color:rgb(19, 13, 13);
   font-size: 30px;
   font-weight: bold;
-  margin-top: auto;
+ 
+  border-radius: 50 50 50px;
   
-  }
-.photocard img{
+   
+    
+
+  } 
+
+  .photocard img{
+  width: 250px;
+  height: 146px; 
+}
+
+.photocards{
+  background-color: turquoise;
+  display:flex ;
   flex-wrap: wrap;
-  flex-direction: row;
-  grid-template-columns: repeat(6,1fr);
-  width: 250px;
-  height: 146px;
-  display: inline-flexbox;
-  border: none;
-  grid-template-columns: repeat(6,1fr);
-  width: 250px;
-  height: 150px;
-  display: inline-block;
-  border: none;
-  
 }
 .photocard p{
   color: blueviolet;
-  inline-block;
-  }
-
-  .photocard{
-   
- 
   
-}
-.photocard2 img{
-  flex-wrap: wrap;
-  flex-direction: row;
-  grid-template-columns: repeat(6,1fr);
-  width: 250px;
-  height: 146px;
-  display: inline-flexbox;
-  border: none;
-}
-.photocard3 img{
-  flex-wrap: wrap;
-  flex-direction: row;
-  grid-template-columns: repeat(6,1fr);
-  width: 250px;
-  height: 146px;
-  display: inline-flexbox;
-  border: none;
-}
+  }
+  
+    
+  
+  .photocard {
+    background-color: wheat;
+    margin: 5px;
+  min-width:30%;
+  }
+  
 
-.photocard4 img{
-  flex-wrap: wrap;
-  flex-direction: row;
-  grid-template-columns: repeat(6,1fr);
-  width: 250px;
-  height: 146px;
-  display: inline-flexbox;
-  border: none;
-}
+   h4{
+    border: 3px solid  rgb(210, 214, 219);
+ 
+  display:flex;
+  padding: 55%; 
+  height: 185%;
+  width: 50%;
+  background-color: tomato;
+   }
+.space{
+ height: 150px;
+ width: 250px;
+ 
+} 
 
-.photocard5 img{
-  flex-wrap: wrap;
-  flex-direction: row;
-  grid-template-columns: repeat(6,1fr);
-  width: 250px;
-  height: 146px;
-  display: inline-flexbox;
-  border: none;
-}
-
-.photocard6 img{
-  flex-wrap: wrap;
-  flex-direction: row;
-  grid-template-columns: repeat(6,1fr);
-  width: 250px;
-  height: 146px;
-  display: inline-flexbox;
-  border: none;
-}
