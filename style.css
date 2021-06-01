@@ -127,7 +127,7 @@ ul li{
   color:rgb(19, 13, 13);
   font-size: 30px;
   font-weight: bold;
- 
+
   border-radius: 50 50 50px;
   
    
@@ -145,6 +145,7 @@ ul li{
   display:flex ;
   flex-wrap: wrap;
   position: relative;
+  
 }
 .photocard p{
   color: blueviolet;
@@ -167,9 +168,13 @@ ul li{
     height: 700px;
   width: 1px;
   background-color: #eeeee4;
+  position: relative;
+  left:79%;
+  bottom:555px;
+  
    }
 
-   }
+   
 .space{
  height: 150px;
  width: 250px;
