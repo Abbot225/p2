@@ -127,8 +127,8 @@ ul li{
   color:rgb(19, 13, 13);
   font-size: 30px;
   font-weight: bold;
-
   border-radius: 50 50 50px;
+  background: beige;
   
    
     
@@ -136,32 +136,38 @@ ul li{
   } 
 
   .photocard img{
-  width: 250px;
+  width: 400px;
   height: 146px; 
+  border-radius: 25px 25px 0 0;
 }
 
 .photocards{
-  background-color: #eeeee4 ;
   display:flex ;
   flex-wrap: wrap;
   position: relative;
   
 }
 .photocard p{
-  color: blueviolet;
+  text-decoration:none;
   
+
   }
   
     
   
   .photocard {
-    background-color: #DEEBFF #F2F2;
-    margin: 5px;
-  min-width:30%;
+    background-color:  #F2F2;
+    margin: 15px;
+    min-width:30%;
+    padding: 1px;
+    }
+  
+  .photocard p.night{
+    
+    
   }
   
-
-  h4{
+h5{
     border: 3px solid  rgb(210, 214, 219);
     float: right;
     padding: 10%; 
@@ -169,15 +175,18 @@ ul li{
   width: 1px;
   background-color: #eeeee4;
   position: relative;
-  left:79%;
+  left:90%;
   bottom:555px;
   
    }
 
    
-.space{
- height: 150px;
- width: 250px;
+.star{
+ color: blue;
+ 
  
 } 
-
+.non{
+  color: gray;
+  
+}
