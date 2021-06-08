@@ -68,11 +68,8 @@ ul li{
     
   }
    
-  .in{
-    border: 00px solid  #DEEBFF #F2F2;
-    background-color:#DEEBFF #F2F2;
-    
-  }
+  
+  
  
    .filter{
  font-size: 18px;
@@ -106,7 +103,7 @@ ul li{
   border:none;
   padding: 10px;
   height:40px;
-  color: white;
+  color: white; 
  }
  
 .Popular i{
@@ -125,18 +122,16 @@ ul li{
 .in{
  
   color:rgb(19, 13, 13);
-  font-size: 30px;
-  font-weight: bold;
-  border-radius: 50 50 50px;
-  background: beige;
+  font-size: 20px;
+  background: #e5e5e5;
+  height: 788px;
+  margin-right: 340px;
+  border-radius: 25px 25px 25px 25px;
   
-   
-    
-
   } 
 
   .photocard img{
-  width: 400px;
+  width: 500px;
   height: 146px; 
   border-radius: 25px 25px 0 0;
 }
@@ -156,10 +151,11 @@ ul li{
     
   
   .photocard {
-    background-color:  #F2F2;
-    margin: 15px;
-    min-width:30%;
-    padding: 1px;
+    background-color:  white;
+    margin: 5px;
+    min-width:27%;
+    padding: 2px;
+    border-radius: 25px 25px 15px 15px;
     }
   
   .photocard p.night{
@@ -167,19 +163,32 @@ ul li{
     
   }
   
-h5{
-    border: 3px solid  rgb(210, 214, 219);
-    float: right;
-    padding: 10%; 
-    height: 700px;
-  width: 1px;
-  background-color: #eeeee4;
-  position: relative;
-  left:90%;
-  bottom:555px;
+ 
+    
+  
+
+.corner{
+  display: table-cell;
+  background-color: greenyellow;
+  border-radius: 25px 25px 25px 25px;
+    margin-left: 79em;
+    
+    min-width:20%;
+    padding: 20px 20px 0px 0px;
+    
+    
+    
   
    }
-
+   
+.corner img{
+  width: 300px;
+  height: 146px; 
+  border-radius: 25px 25px 0 0;
+  display:flex ;
+  flex-wrap: wrap;
+  position: relative;
+}
    
 .star{
  color: blue;
@@ -189,4 +198,11 @@ h5{
 .non{
   color: gray;
   
+}
+.footer p{
+  background-color: #777;
+  padding: 10px;
+  right: 3px;
+  text-align: center;
+  color: rgb(235, 28, 28);
 }
