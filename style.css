@@ -39,6 +39,7 @@ ul li{
     font-family:arial bold;
     color:rgb(19, 13, 13);
     
+    
 
   }
   
@@ -46,7 +47,9 @@ ul li{
     border: 2px solid  #DEEBFF #F2F2;
     border-radius: 500px;
     display:inline-block;
-    overflow: hidden;
+    overflow:hidden;
+    padding: 5px;
+    
     }
   
 
@@ -75,6 +78,7 @@ ul li{
  font-size: 18px;
   border: 3px solid  rgb(210, 214, 219);
   border-radius: 55px;
+  margin-left: 25px;
   display: inline-block;
   padding: 0;
   
@@ -119,21 +123,25 @@ ul li{
   
 }
 
-.in{
+.accommodations{
  
   color:rgb(19, 13, 13);
   font-size: 20px;
   background: #e5e5e5;
-  height: 788px;
-  margin-right: 340px;
+  height: 945px;
+  width: 778px;
   border-radius: 25px 25px 25px 25px;
+  
   
   } 
 
   .photocard img{
-  width: 500px;
-  height: 146px; 
+  width:330px;
+  height: 139px; 
   border-radius: 25px 25px 0 0;
+  object-fit: cover;
+  padding: 4px;
+  
 }
 
 .photocards{
@@ -144,7 +152,7 @@ ul li{
 }
 .photocard p{
   text-decoration:none;
-  
+  height: 5px;
 
   }
   
@@ -153,9 +161,20 @@ ul li{
   .photocard {
     background-color:  white;
     margin: 5px;
-    min-width:27%;
+    margin-left: 22px;
+    min-width:20;
     padding: 2px;
     border-radius: 25px 25px 15px 15px;
+    display: flex;
+    flex-direction: column;
+    
+    }
+    .photocard.dir{
+     flex-direction: row;
+     
+    }
+    .photocard.dir img{
+      border-radius: 25px 0 0 25px;
     }
   
   .photocard p.night{
@@ -167,28 +186,33 @@ ul li{
     
   
 
-.corner{
-  display: table-cell;
-  background-color: greenyellow;
-  border-radius: 25px 25px 25px 25px;
-    margin-left: 79em;
-    
-    min-width:20%;
-    padding: 20px 20px 0px 0px;
-    
-    
-    
+.most-popular{
   
-   }
+  align-items:flex-end;
+  background-color: #e5e5e5; 
+  border-radius: 25px 25px 25px 25px;
+    margin-left: 34px;
+    display: flex;
+    flex-direction: column;
+  
    
-.corner img{
-  width: 300px;
-  height: 146px; 
+    }
+   .all-rooms{
+    flex-direction: row;
+    display: flex;
+  }
+   
+.most-popular img{
+  width: 256px;
+  height:125px; 
+  padding: 1px;
   border-radius: 25px 25px 0 0;
   display:flex ;
   flex-wrap: wrap;
-  position: relative;
+  
+  
 }
+
    
 .star{
  color: blue;
