@@ -216,6 +216,10 @@ h5 {
   font-weight: bold;
 }
 
+.box{
+  display: flex;
+  flex-direction: row;
+}
 .loc {
   
   background-color: white;
