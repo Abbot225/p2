@@ -19,7 +19,7 @@ nav ul {
   float: right;
 }
 
-ul li {
+nav ul li {
   list-style: none;
   display: inline;
 }
@@ -116,7 +116,7 @@ p2 {
   color: rgb(19, 13, 13);
   font-size: 20px;
   background: #e5e5e5;
- width: 900px;
+  width: 900px;
   border-radius: 25px 25px 25px 25px;
 }
 
@@ -160,12 +160,10 @@ p2 {
   border-radius: 25px 0 0 25px;
 }
 
-
 }
 
-.stay{
+.stay {
   font-weight: bold;
-  
 }
 
 .most-popular {
@@ -216,12 +214,12 @@ h5 {
   font-weight: bold;
 }
 
-.box{
+.box {
   display: flex;
   flex-direction: row;
 }
+
 .loc {
-  
   background-color: white;
   border: 1px solid rgb(242, 242, 242);
   width: 348px;
@@ -229,9 +227,10 @@ h5 {
   border-radius: 25px 25px 25px 25px;
   flex-direction: column;
   display: flex;
-  box-shadow:5px 5px 5px lightgray;
+  box-shadow: 5px 5px 5px lightgray;
   margin: 2rem;
 }
+
 .loc img {
   height: 425px;
   width: 345px;
@@ -240,42 +239,41 @@ h5 {
   object-fit: cover;
 }
 
-.loc p{
+.loc p {
   font-weight: bold;
   padding: 1rem;
   font-size: 14pt;
 }
-.paul{
-width: 400px;
-height: 270px;
 
-}
-.paul p{
- width: 400px;
-  height:177px ;
+.paul {
+  width: 400px;
+  height: 270px;
 }
 
-.paul img{
+.paul p {
   width: 400px;
   height: 177px;
-  
 }
 
-.frioul{
-  height:215px ;
-  width:400px ;
+.paul img {
+  width: 400px;
+  height: 177px;
 }
 
-.frioul p{
-height: 188px;
-width:400px ;
+.frioul {
+  height: 215px;
+  width: 400px;
 }
 
-.frioul img{
-height: 135px;
-width: 400px;
+.frioul p {
+  height: 188px;
+  width: 400px;
 }
 
+.frioul img {
+  height: 135px;
+  width: 400px;
+}
 
 .loc2 {
   background-color: white;
@@ -285,9 +283,10 @@ width: 400px;
   border-radius: 25px 25px 25px 25px;
   flex-direction: column;
   display: flex;
-  box-shadow:5px 5px 5px lightgray;
+  box-shadow: 5px 5px 5px lightgray;
   margin: 2rem;
 }
+
 .loc2 img {
   height: 425px;
   width: 345px;
@@ -295,39 +294,58 @@ width: 400px;
   display: block;
 }
 
-.loc2 p{
+.loc2 p {
   font-weight: bold;
   padding: 1rem;
-  font-size: 14pt;}
-  
- 
-    
-  
-  
-  .notre{
-height: 370px;
-width: 500px;
-  }
-  .notre p{
-    width: 400px;
-    height: 270px;
-  }
-  .notre img{
-    width: 500px;
-    height: 270px;
-  }
-  .longchamp{
-    width: 430px;
-    height: 325px;
-  }
-  .longchamp p{
-    width: 430px;
-    height: 325px;
-  }
-  .longchamp img{
-    width: 430px;
-    height: 260px;
-  }
+  font-size: 14pt;
+}
 
+.notre {
+  height: 370px;
+  width: 500px;
+}
 
+.notre p {
+  width: 400px;
+  height: 270px;
+}
 
+.notre img {
+  width: 500px;
+  height: 270px;
+}
+
+.longchamp {
+  width: 430px;
+  height: 325px;
+}
+
+.longchamp p {
+  width: 430px;
+  height: 325px;
+}
+
+.longchamp img {
+  width: 430px;
+  height: 260px;
+}
+
+h6 {
+  margin-right: auto;
+  margin-bottom: 0;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #e5e5e5;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+footer ul {
+  list-style-type: none;
+  padding-left: 0;
+  
+}
