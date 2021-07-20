@@ -262,11 +262,18 @@ height: 270px;
 }
 
 .frioul{
-  
+  height:215px ;
+  width:400px ;
+}
+
+.frioul p{
+height: 188px;
+width:400px ;
 }
 
 .frioul img{
-
+height: 135px;
+width: 400px;
 }
 
 
@@ -293,32 +300,33 @@ height: 270px;
   padding: 1rem;
   font-size: 14pt;}
   
-  .calanques{
-
-  }
-  .calanques{
-
-  }
-  .calanques{
-
-  }
+ 
+    
+  
+  
   .notre{
-
+height: 370px;
+width: 500px;
   }
-  .notre{
-
+  .notre p{
+    width: 400px;
+    height: 270px;
   }
-  .notre{
-
+  .notre img{
+    width: 500px;
+    height: 270px;
   }
   .longchamp{
-
+    width: 430px;
+    height: 325px;
   }
-  .longchamp{
-
+  .longchamp p{
+    width: 430px;
+    height: 325px;
   }
-  .longchamp{
-
+  .longchamp img{
+    width: 430px;
+    height: 260px;
   }
 
 
