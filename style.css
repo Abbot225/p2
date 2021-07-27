@@ -174,7 +174,10 @@ p2 {
   display: flex;
   flex-direction: column;
 }
-
+.point {
+  color: aqua;
+  
+}
 .all-rooms {
   flex-direction: row;
   display: flex;
@@ -198,14 +201,17 @@ p2 {
 }
 
 h4 {
-  margin-right: auto;
+  
   font-size: 1.5em;
   font-weight: bold;
+  flex-direction: column;
+  display: flex;
 }
 
 .point {
   display: flex;
   flex-direction: column;
+  display: flex;
 }
 
 h5 {
@@ -317,7 +323,7 @@ h5 {
 
 .longchamp {
   width: 430px;
-  height: 325px;
+  height: 340px;
 }
 
 .longchamp p {
