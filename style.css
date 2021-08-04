@@ -84,7 +84,7 @@ p2 {
   border-radius: 55px;
   margin-left: 25px;
   display: inline-block;
-  padding: 0;
+  font-weight: bold;
 }
 
 .filter i {
