@@ -48,10 +48,7 @@ nav a {
   border-radius: 500px;
   display: inline-block;
   overflow: hidden;
-  
-  padding: 1px;
-  
-}
+  }
 .search-box input {
   border: none;
 }
@@ -69,7 +66,7 @@ nav a {
   border: 5px solid #eeeee4;
   background-color: #eeeee4;
   border-radius: 10px 0 0 10px;
-  padding: 7px;
+  padding: 8px;
   height: 45px;
 }
 
@@ -119,7 +116,7 @@ p2 {
   color: rgb(19, 13, 13);
   font-size: 20px;
   background: #F2F2F2;
-  width: 900px;
+  width: 910px;
   height: 650px;
   border-radius: 25px 25px 25px 25px;
 }
@@ -140,7 +137,7 @@ p2 {
 
 .photocard p {
   text-decoration: none;
-  height: 5px;
+  height: 4px;
 }
 
 .photocard {
@@ -156,10 +153,11 @@ p2 {
 
 .photocard.dir {
   flex-direction: row;
-  width: 25em;
+  width: 20em;
   font-weight: bold;
-  
-}
+    font-size: 20px;
+    
+    }
 
 
 .photocard.dir img {
@@ -172,6 +170,9 @@ p2 {
   font-weight: bold;
 }
 
+.price{
+  font-weight: normal;
+}
 
 .most-popular {
   align-items: flex-end;
@@ -185,10 +186,18 @@ p2 {
 .most-popular img {
   width: 120px;
   height: 145px;
-  padding: 1px;
+  padding: 4px;
   border-radius: 25px 25px 0 0;
   display: flex;
   flex-wrap: wrap;
+}
+.most-popular p{
+  padding: 14px;
+}
+.show{
+font-size: 1em;
+font-weight: bold;
+
 }
 
 
@@ -203,7 +212,7 @@ p2 {
   color: #0065FC;
 }
 
-. .non {
+.non {
   color: #F2F2F2;
 }
 
@@ -215,7 +224,7 @@ h4 {
 .point {
   font-size: 1.5em;
   align-items: flex-end;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 
@@ -347,6 +356,11 @@ h6 {
   margin-bottom: 0;
   font-size: 1.5em;
   font-weight: bold;
+  
+}
+ ul{
+ font-size:  1.5em;
+ 
 }
 
 footer {
@@ -360,8 +374,60 @@ footer ul {
   padding-left: 0;
 }
 
+/* MEDIA QUERIES */
+
 @media  (max-width:400px) {
-  .all-rooms {
-    flex-direction: column;
+   header{
+    width: 92%;
   }
+}
+
+@media  (max-width:400px) {
+  h1{
+   width: 92%;
+ }
+}
+
+@media  (max-width:400px) {
+  p{
+   width: 92%;
+ }
+}
+
+@media  (max-width:400px) {
+  .fa-dog {
+   margin-right: 100px;
+   
+ }
+}
+
+@media  (max-width:400px) {
+  .fa-heart{
+   float: left;
+   
+ }
+}
+
+@media  (max-width:400px) {
+  header{
+   width: 92%;
+ }
+}
+
+@media  (max-width:400px) {
+  header{
+   width: 92%;
+ }
+}
+
+@media  (max-width:400px) {
+  header{
+   width: 92%;
+ }
+}
+
+@media  (max-width:400px) {
+  header{
+   width: 92%;
+ }
 }
