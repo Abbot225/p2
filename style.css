@@ -346,50 +346,24 @@ footer ul {
   header {
     width: 92%;
   }
-}
-
-@media (max-width:400px) {
   h1 {
     width: 92%;
   }
-}
-
-@media (max-width:400px) {
+  .box {
+    flex-direction: column;
+  }
   p {
     width: 92%;
   }
-}
-
-@media (max-width:400px) {
-  .filters {}
-}
-
-@media (max-width:400px) {
-  .fa-heart {
-    float: left;
+  .filters{
+    flex-direction: column;
   }
+  .all-rooms{
+    flex-direction:column;
 }
-
-@media (max-width:400px) {
-  header {
-    width: 92%;
-  }
+.most-popular{
+  flex-direction:column;
 }
-
-@media (max-width:400px) {
-  header {
-    width: 92%;
-  }
-}
-
-@media (max-width:400px) {
-  header {
-    width: 92%;
-  }
-}
-
-@media (max-width:400px) {
-  header {
-    width: 92%;
-  }
+*{
+  flex-direction:column;
 }
