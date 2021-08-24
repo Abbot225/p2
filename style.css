@@ -211,17 +211,27 @@ h2 {
 
 h4 {
   font-size: 1.5em;
-  margin-right: 10em;
+  
   font-weight: bold;
+
 }
 
 .point {
   font-size: 1.5em;
-  align-items: flex-end;
-  flex-direction: row;
+  font-weight: bold;
+  display: flex;
+  width: 100%;
+
+  justify-content:space-between;
+  align-items:center;
 }
 
-h5 {
+.fa-chart-line {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+h4 {
   margin-right: auto;
   font-size: 1.5em;
   font-weight: bold;
@@ -333,6 +343,7 @@ footer {
   background-color: #F2F2F2;
   display: flex;
   justify-content: space-evenly;
+  line-height: 2.5rem;
 }
 
 footer ul {
@@ -351,19 +362,44 @@ footer ul {
   }
   .box {
     flex-direction: column;
+    margin: auto;
+    padding: auto;
   }
   p {
     width: 92%;
   }
-  .filters{
+  .filters {
     flex-direction: column;
+    margin: 0px 0px 0px 100px;
+    padding: auto;
   }
-  .all-rooms{
-    flex-direction:column;
-}
-.most-popular{
-  flex-direction:column;
-}
-*{
-  flex-direction:column;
-}
+  
+  .all-rooms {
+    flex-direction: column;
+    margin: auto;
+    padding: auto;
+  }
+  .most-popular {
+    flex-direction: column;
+    margin: auto;
+  }
+  * {
+    flex-direction: column;
+    
+    
+  }
+  .search-box{
+   margin: 1px 1px 1px 1px;
+   }
+   
+   
+   }
+   .photocards{
+     padding: 1px;
+     margin: 12px 12px 12px 19px;
+   }
+   .photocard.dir{
+    padding: 1px;
+    margin: 12px 12px 12px 19px;
+   }
+  
