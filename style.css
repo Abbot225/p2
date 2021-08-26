@@ -353,7 +353,7 @@ footer ul {
 
 /* MEDIA QUERIES */
 
-@media (max-width:400px) {
+@media (max-width:430px) {
   header {
     width: 92%;
   }
@@ -364,6 +364,7 @@ footer ul {
     flex-direction: column;
     margin: auto;
     padding: auto;
+    
   }
   p {
     width: 92%;
@@ -378,24 +379,31 @@ footer ul {
     flex-direction: column;
     margin: auto;
     padding: auto;
+    
   }
   .most-popular {
     flex-direction: column;
     margin: auto;
+    
   }
-  * {
+  .photocard.dir{
     flex-direction: column;
+    }
+    .photocard.dir img{
+      width: 100%;
+      border-radius: 25px 25px 0px 0px;
+    }
     
-    
-  }
   .search-box{
    margin: 0px 0px 0px 1px;
    padding: 0px 0px 0px 1px;
   
    }
    
-   
+   .frioul{
+     width: initial;
    }
+   
    .photocards{
      padding: 1px;
      margin: 12px 12px 12px 19px;
