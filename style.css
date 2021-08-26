@@ -353,7 +353,7 @@ footer ul {
 
 /* MEDIA QUERIES */
 
-@media (max-width:430px) {
+@media (max-width:330px) {
   header {
     width: 92%;
   }
