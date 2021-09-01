@@ -369,9 +369,12 @@ footer ul {
   p {
     width: 92%;
   }
+  .filter{
+    margin-left: none;
+  }
   .filters {
     flex-direction: column;
-    margin: 0px 0px 0px 100px;
+    margin: 10px 10px 40px 40px;
     padding: auto;
   }
   
@@ -379,6 +382,9 @@ footer ul {
     flex-direction: column;
     margin: auto;
     padding: auto;
+  }
+  .accommodations{
+    background: none;
     
   }
   .most-popular {
@@ -388,6 +394,10 @@ footer ul {
   }
   .photocard.dir{
     flex-direction: column;
+    
+    }
+    .photocard{
+      box-shadow: 5px 5px 5px lightgray;
     }
     .photocard.dir img{
       width: 100%;
@@ -395,8 +405,8 @@ footer ul {
     }
     
   .search-box{
-   margin: 0px 0px 0px 1px;
-   padding: 0px 0px 0px 1px;
+   margin: ;
+   padding: ;
   
    }
    
@@ -412,4 +422,12 @@ footer ul {
     padding: 1px;
     margin: 12px 12px 12px 19px;
    }
-  
+   .loc img {
+     width: 262px;
+     height: 123px;
+     
+   }
+   .loc{
+     border: none;
+     box-shadow: 2px;
+   }
