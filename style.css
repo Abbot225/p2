@@ -38,6 +38,9 @@ nav a {
   border: 2px solid #0065FC;
   border-radius: 500px;
 }
+.search-box_non-fas fa-search{
+  background-color: rgb(219, 5, 5);
+}
 
 .search-box input {
   font-family: arial bold;
@@ -47,6 +50,7 @@ nav a {
 .search-box {
   border: 2px solid #F2F2F2;
   border-radius: 500px;
+  height: 45px;
   display: inline-block;
   overflow: hidden;
 }
@@ -71,6 +75,13 @@ nav a {
   border-radius: 10px 0 0 10px;
   padding: 8px;
   height: 45px;
+}
+.disable-box i{
+  background-color: white;
+  border: white;
+  margin-left: 200px;
+color: white;
+
 }
 
 h2 {
@@ -398,29 +409,33 @@ footer ul {
     }
     .photocard{
       box-shadow: 5px 5px 5px lightgray;
+      margin: none;
+      width: 260px;
     }
     .photocard.dir img{
       width: 100%;
       border-radius: 25px 25px 0px 0px;
     }
     
-  .search-box{
-   margin: ;
-   padding: ;
-  
-   }
-   
-   .frioul{
-     width: initial;
-   }
+  .search-box {
+   height: 50px;
+  }
+   .disable-box i{
+    background-color:blue;
+    border:blue;
+    color: black;
+    height: 500px;
+    margin-left: 200px;
+}
    
    .photocards{
      padding: 1px;
      margin: 12px 12px 12px 19px;
    }
    .photocard.dir{
-    padding: 1px;
-    margin: 12px 12px 12px 19px;
+    width: 260px;
+    height: 200px;
+    margin: none;
    }
    .loc img {
      width: 262px;
@@ -428,6 +443,11 @@ footer ul {
      
    }
    .loc{
-     border: none;
-     box-shadow: 2px;
+    width: 260px;
+    height: 200px;
+    margin: none;
+   }
+   footer{
+     display: flex;
+     flex-direction: column;
    }
