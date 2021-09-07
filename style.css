@@ -38,7 +38,8 @@ nav a {
   border: 2px solid #0065FC;
   border-radius: 500px;
 }
-.search-box_non-fas fa-search{
+
+.search-box_non-fas fa-search {
   background-color: rgb(219, 5, 5);
 }
 
@@ -76,16 +77,17 @@ nav a {
   padding: 8px;
   height: 45px;
 }
-.disable-box i{
+
+.disable-box i {
   background-color: rgb(207, 10, 10);
   border: rgb(14, 184, 51);
   margin-left: 200px;
-color: rgb(46, 15, 185);
-
+  color: rgb(46, 15, 185);
 }
 
 h2 {
-  display: inline-block;
+  display:inline-block;
+  
 }
 
 .filter {
@@ -151,7 +153,7 @@ h2 {
   background-color: white;
   margin: 12px;
   margin-left: 22px;
-  min-width: 20;
+  min-width: 20px;
   padding: 2px;
   border-radius: 25px 25px 15px 15px;
   display: flex;
@@ -222,9 +224,7 @@ h2 {
 
 h4 {
   font-size: 1.5em;
-  
   font-weight: bold;
-
 }
 
 .point {
@@ -232,9 +232,8 @@ h4 {
   font-weight: bold;
   display: flex;
   width: 100%;
-
-  justify-content:space-between;
-  align-items:center;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .fa-chart-line {
@@ -364,8 +363,8 @@ footer ul {
 
 /* MEDIA QUERIES */
 
-@media (max-width:330px) {
-  body{
+@media (max-width:400px) {
+  body {
     flex: auto;
     flex-direction: column;
     justify-content: center;
@@ -374,30 +373,27 @@ footer ul {
     flex: auto;
     flex-direction: column;
     justify-content: center;
-    
   }
   h1 {
     flex: auto;
     flex-direction: column;
     justify-content: center;
   }
-  h2{
-    flex: auto;
-    flex-direction: column;
-    justify-content: center;
+  h2 {
+    display: flex;
+    flex-direction:row;
+    
   }
   .box {
     flex-direction: column;
     margin: auto;
     padding: auto;
-    
   }
   p {
-    display: ;
     flex-direction: column;
     justify-content: center;
   }
-  .filter{
+  .filter {
     margin-left: none;
   }
   .filters {
@@ -405,83 +401,80 @@ footer ul {
     margin: 10px 10px 40px 40px;
     padding: auto;
   }
-  
   .all-rooms {
     flex: auto;
     flex-direction: column;
     margin: auto;
     padding: auto;
   }
-  .accommodations{
+  .accommodations {
     background: none;
-    display:flex;
+    display: flex;
     flex-direction: column;
     margin-left: auto;
-    
   }
   .most-popular {
     flex-direction: column;
-    margin: auto;
+    margin: 0;
+    padding: 0;
+    align-content: stretch;
+  }
+  .most-popular p{
+    font-size: 14px;
+    padding: 20px;
     
   }
-  
-    .photocard{
-      box-shadow: 5px 5px 5px lightgray;
-      margin: none;
-      width: 260px;
-    }
-    .photocard.dir img{
-      width: 100%;
-      border-radius: 25px 25px 0px 0px;
-    }
-    
+  .photocard {
+    box-shadow: 5px 5px 5px lightgray;
+    margin: none;
+  }
+  .photocard.dir {
+    font-size: 13px;
+    margin: 30px;
+    width: 100%;
+  }
   .search-box {
-   height: 49px;
-   width: 335px;
-   display:flex;
-   margin-right: 100px;
-   align-items: flex-start;
-   
+    height: 49px;
+    width: 335px;
+    display: flex;
+    margin-right: 100px;
+    align-items: flex-start;
   }
-   .disable-box i{
-    background-color:#0065FC;
-    ;
-    border:blue;
-    color:white;
+  .disable-box i {
+    background-color: #0065FC;
+    border-radius: 0 25px 0 0;
+    border: blue;
+    color: white;
     width: 50px;
     padding-right: 900px;
     font-size: 18px;
     margin-left: 1px;
-    
-    
-}
-.search-box button{
-  padding: none;
-  
-  background-color: white;
-  color: white;
-}
-   
-   .photocards{
-     padding: 1px;
-     margin: 12px 12px 12px 19px;
-   }
-   .photocard.dir{
+  }
+  .search-box button {
+    padding: none;
+    background-color: white;
+    color: white;
+  }
+  .photocards {
+    padding: 1px;
+    margin: 12px 12px 12px 19px;
+  }
+  .photocard.dir {
     width: 260px;
     height: 200px;
     margin: none;
-   }
-   .loc img {
-     width: 262px;
-     height: 123px;
-     
-   }
-   .loc{
+  }
+  .loc img {
+    width: 262px;
+    height: 123px;
+  }
+  .loc {
     width: 260px;
     height: 200px;
     margin: none;
-   }
-   footer{
-     display: flex;
-     flex-direction: column;
-   }
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+}
