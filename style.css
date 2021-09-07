@@ -428,11 +428,8 @@ footer ul {
     box-shadow: 5px 5px 5px lightgray;
     margin: none;
   }
-  .photocard.dir {
-    font-size: 13px;
-    margin: 30px;
-    width: 100%;
-  }
+   
+
   .search-box {
     height: 49px;
     width: 335px;
@@ -460,10 +457,11 @@ footer ul {
     margin: 12px 12px 12px 19px;
   }
   .photocard.dir {
-    width: 260px;
-    height: 200px;
-    margin: none;
+    font-size: 13px;
+    margin: 30px;
+    
   }
+  
   .loc img {
     width: 262px;
     height: 123px;
