@@ -44,7 +44,7 @@ nav a {
 }
 
 .search-box input {
-  font-family: arial bold;
+  font-family: "arial bold";
   color: rgb(19, 13, 13);
 }
 
@@ -435,7 +435,6 @@ footer ul {
   }
   .search-box button {
     background-color: white;
-    color: white;
   }
   .photocards {
     padding: 1px;
