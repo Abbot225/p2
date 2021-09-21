@@ -213,9 +213,8 @@ h2 {
   display: block;
   padding: 15px;
 }
-.show a{
-  padding: 0;
-}
+
+
 
 .all-rooms {
   flex-direction: row;
