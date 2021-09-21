@@ -150,7 +150,7 @@ h2 {
 
 .photocard p {
   text-decoration: none;
-  height: 4px;
+  height: 2px;
 }
 
 .photocard {
@@ -163,6 +163,8 @@ h2 {
   display: flex;
   flex-direction: column;
 }
+
+
 
 
 .photocard.dir {
