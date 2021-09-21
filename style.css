@@ -240,11 +240,7 @@ h4 {
   font-weight: bold;
 }
 
-h4 {
-  margin-right: auto;
-  font-size: 1.5em;
-  font-weight: bold;
-}
+
 
 .box {
   display: flex;
