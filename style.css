@@ -84,10 +84,10 @@ nav a {
 }
 
 .disable-box i {
-  background-color: rgb(207, 10, 10);
-  border: rgb(14, 184, 51);
+  background-color: white;
+  border: white;
   margin-left: 200px;
-  color: rgb(46, 15, 185);
+  color: white;
 }
 
 h2 {
@@ -440,7 +440,7 @@ footer ul {
     margin-left: 1px;
   }
   .search-box button {
-    background-color: white;
+    background-color:rgba(255, 255, 255, 0);
   }
   .photocards {
     padding: 1px;
