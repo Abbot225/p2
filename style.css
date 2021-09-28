@@ -104,6 +104,11 @@ h2 {
   font-weight: bold;
 }
 
+.filter:hover{
+  box-shadow: 4px 4px 4px 4px;
+  color: #08b7fc;
+}
+
 .filter i {
   color: #0065FC;
   background-color: #DEEBFF;
