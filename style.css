@@ -39,6 +39,11 @@ nav a {
   font-family: arial;
 }
 
+nav a:hover{
+ color: #08b7fc;
+  
+}
+
 .search-box_fa-map-marker-alt {
   border: 2px solid #0065FC;
   border-radius: 500px;
@@ -105,7 +110,7 @@ h2 {
 }
 
 .filter:hover{
-  box-shadow: 4px 4px 4px 4px;
+  box-shadow: 5px 5px 5px 5px;
   color: #08b7fc;
 }
 
@@ -147,6 +152,17 @@ h2 {
   padding: 4px;
 }
 
+.photocard a:hover{
+  box-shadow: 10px 10px 10px 10px;
+  color: #08b7fc;
+}
+
+.photocard.dir:hover{
+    box-shadow: 5px 5px 5px 5px;
+    color: #08b7fc;
+  }
+
+
 .photocards {
   display: flex;
   flex-wrap: wrap;
@@ -168,9 +184,6 @@ h2 {
   display: flex;
   flex-direction: column;
 }
-
-
-
 
 .photocard.dir {
   flex-direction: row;
@@ -260,6 +273,11 @@ h4 {
 .box {
   display: flex;
   flex-direction: row;
+}
+
+.loc:hover{
+  box-shadow: 15px 15px 15px 15px;
+  color: #08b7fc;
 }
 
 .loc {
