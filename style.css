@@ -56,6 +56,7 @@ nav a:hover{
 .search-box input {
   font-family: "arial bold";
   color: rgb(19, 13, 13);
+  outline:lightblue;
 }
 
 .search-box {
@@ -246,7 +247,7 @@ h2 {
 }
 
 .non {
-  color: #F2F2F2;
+  color: #e0dada;
 }
 
 h4 {
