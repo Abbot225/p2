@@ -2,11 +2,11 @@
   box-sizing: border-box;
 }
 
-a{
+a {
   color: black;
-  text-decoration:none;
-  
+  text-decoration: none;
 }
+
 body {
   font-family: Raleway;
   margin: auto;
@@ -39,9 +39,8 @@ nav a {
   font-family: arial;
 }
 
-nav a:hover{
- color: #08b7fc;
-  
+nav a:hover {
+  color: #08b7fc;
 }
 
 .search-box_fa-map-marker-alt {
@@ -56,7 +55,10 @@ nav a:hover{
 .search-box input {
   font-family: "arial bold";
   color: rgb(19, 13, 13);
-  outline:lightblue
+  outline: lightblue;
+  border: none;
+  font-size: 1em;
+  font-weight: bold;
 }
 
 .search-box {
@@ -65,10 +67,6 @@ nav a:hover{
   height: 45px;
   display: inline-block;
   overflow: hidden;
-}
-
-.search-box input {
-  border: none;
 }
 
 .search-box button {
@@ -110,7 +108,7 @@ h2 {
   font-weight: bold;
 }
 
-.filter:hover{
+.filter:hover {
   box-shadow: 5px 5px 5px 5px;
   color: #08b7fc;
 }
@@ -153,16 +151,15 @@ h2 {
   padding: 4px;
 }
 
-.photocard a:hover{
+.photocard a:hover {
   box-shadow: 10px 10px 10px 10px;
   color: #08b7fc;
 }
 
-.photocard.dir:hover{
-    box-shadow: 5px 5px 5px 5px;
-    color: #08b7fc;
-  }
-
+.photocard.dir:hover {
+  box-shadow: 5px 5px 5px 5px;
+  color: #08b7fc;
+}
 
 .photocards {
   display: flex;
@@ -235,8 +232,6 @@ h2 {
   padding: 15px;
 }
 
-
-
 .all-rooms {
   flex-direction: row;
   display: flex;
@@ -268,14 +263,12 @@ h4 {
   font-weight: bold;
 }
 
-
-
 .box {
   display: flex;
   flex-direction: row;
 }
 
-.loc:hover{
+.loc:hover {
   box-shadow: 15px 15px 15px 15px;
   color: #08b7fc;
 }
@@ -463,7 +456,7 @@ footer ul {
     margin-left: 1px;
   }
   .search-box button {
-    background-color:rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0);
   }
   .photocards {
     padding: 1px;
