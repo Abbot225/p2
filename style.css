@@ -383,7 +383,7 @@ footer ul {
 
 /* MEDIA QUERIES */
 
-@media (max-width:400px) {
+@media (max-width:600px) {
   body {
     flex: auto;
     flex-direction: column;
@@ -426,10 +426,14 @@ footer ul {
   }
   .most-popular {
     flex-direction: column;
-    margin: 0;
+    margin:0;
     padding: 0;
     align-content: stretch;
+    width: 100vw;
+    
   }
+  
+  
   .most-popular p {
     font-size: 14px;
     padding: 20px;
@@ -463,8 +467,11 @@ footer ul {
   }
   .photocard.dir {
     font-size: 13px;
-    margin: 30px;
+    width: 85vw;
+    
   }
+  
+  
   .loc img {
     width: 262px;
     height: 123px;
