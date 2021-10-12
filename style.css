@@ -163,6 +163,7 @@ h2 {
 
 .photocards {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   position: relative;
 }
@@ -394,7 +395,8 @@ footer ul {
     justify-content: center;
   }
   header {
-    flex: auto;
+    display: flex;
+    align-items: flex-start;
     flex-direction: column;
     justify-content: center;
   }
@@ -466,12 +468,7 @@ footer ul {
   .search-box button {
     background-color: rgba(255, 255, 255, 0);
   }
-  .photocards {
-    padding: 1px;
-    margin-right:700px ;
-    flex-direction: column;
     
-  }
   .photocard.dir {
     font-size: 13px;
     width: 70vw;
@@ -491,13 +488,5 @@ footer ul {
     display: flex;
     flex-direction: column;
   }
-  h1{
-    margin:50px;
-  
-  }
-
-ul{
-  margin-right:100px;
-}
   
 }
