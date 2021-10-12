@@ -491,8 +491,13 @@ footer ul {
     display: flex;
     flex-direction: column;
   }
-  nav a{
-    padding: 30px;
+  h1{
+    margin:50px;
+  
   }
+
+ul{
+  margin-right:400px;
+}
   
 }
