@@ -387,7 +387,7 @@ footer ul {
 
 /* MEDIA QUERIES */
 
-@media (max-width:600px) {
+@media (max-width:800px) and (min-width:200px) {
   body {
     flex: auto;
     flex-direction: column;
@@ -433,7 +433,8 @@ footer ul {
     margin:0;
     padding: 0;
     align-content: stretch;
-    width: 100vw;
+    width: 64vw;
+    align-items: flex-start;
     
   }
   
@@ -467,11 +468,13 @@ footer ul {
   }
   .photocards {
     padding: 1px;
-    margin: 12px 12px 12px 19px;
+    margin-right:700px ;
+    flex-direction: column;
+    
   }
   .photocard.dir {
     font-size: 13px;
-    width: 85vw;
+    width: 56vw;
     
   }
   
@@ -489,6 +492,7 @@ footer ul {
     flex-direction: column;
   }
   nav a{
-    padding: 17px;
+    padding: 30px;
   }
+  
 }
